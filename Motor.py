@@ -29,7 +29,7 @@ while True:
         doc = doc_ref.get()
         onGoing = doc.to_dict()['onGoing']
         print(u'Ongoing data: {}'.format(onGoing))
-        
+       
         if state != onGoing :
             if onGoing == 0 :
                 degree = 45
